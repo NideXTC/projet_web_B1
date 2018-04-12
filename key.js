@@ -1,3 +1,5 @@
 document.addEventListener('keyup', function(e){
-  console.table(e);
+  if(e.key === 'f'){
+    alert('f* word');
+  }
 });
