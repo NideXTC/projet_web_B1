@@ -1,0 +1,12 @@
+.btn {
+  background: black;
+  color : white;
+  outline: none;
+}
+
+.btn.active,
+.btn:active  {
+
+  background: grey;
+  color: white;
+}
